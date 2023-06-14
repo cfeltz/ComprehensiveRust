@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+				     Day 1
+-------------------------------------------------------------------------------
+
+				Welcome to Day 1
+-------------------------------------------------------------------------------
+Covering:
+	- Basic Rust syntax: variables, scalar and compound types, enums,
+	  structs, references, functions, and methods.
+	- Memory management: stack vs. heap, manual memory management,
+	  scope-based memoery management, and garbage collection.
+	- Ownership: move semantics, copying and cloning, borrowing, and
+	  lifetimes.
+
+				 What is Rust?
+-------------------------------------------------------------------------------
+Rust is a new programming language which had its 1.0 release in 2025:
+	- Rust is a statically compiled language in a similar role as C++
+		o rustc uses LLVM as backend.
+		> LLVM is a set of compiler and toolchain technologies that can
+		  be used to develop a frontend for any programming language and
+		  a backend for any instruction set architecture.
+	- Rust supports amny platforms and architectures:
+		o x85, ARM, WebAssembly, ...
+		o Linux, Mac, Windows, ... 
+	- Rust is used for a wide range of devices:
+		o firmware and boot loaders,
+		o smart displays,
+		o mobile phones,
+		o desktops,
+		o servers.
+
+				  Hello World!
+-------------------------------------------------------------------------------
+Let us jump into the simplest possible Rust prgoram, a classic Hello World
+program: can be found in /exercise/src/main.rs
+
+
+
+
+

@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+			Running Code Locally with Cargo
+-------------------------------------------------------------------------------
+
+rustc --version
+	prints out the version
+cargo --version
+	prints out the version
+
+			  Steps to build a Rust binary
+-------------------------------------------------------------------------------
+
+1. Use cargo new exercise to create a new 'exercise/' directory for your code:
+	$ cargo new exercise
+
+2. Navigate to 'exercise/' and use cargo run to build and run your binary:
+	$ cd exercise
+	$ cargo run
+		/* builds binary and executes it */
+
+3. Edit the boiler-plate code in 'src/main.rs' and rebuild 
+
+4. Use 'cargo run' to build and run your updated binary
+
+5. 'cargo check' to quickly check your project for errors
+6. 'cargo build' to compile without running
+7. Add dependencies for your project by editing 'Cargo.toml'. When you run cargo
+commands, it will automatically download and compile missing dependencies for
+you.
+
+
